@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Validate workflow files
+        run: |
+          if ls .github/workflows/*.yml 2>/dev/null; then
+            npx --yes actionlint@latest .github/workflows/*.yml
+          else
+            echo "No workflow files to lint"
+          fi
