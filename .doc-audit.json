@@ -1,0 +1,8 @@
+{
+  "skip": [
+    "humans-missing",
+    "agents-missing",
+    "readme-no-tier-links"
+  ],
+  "_comment": "Org templates repo — HUMANS/AGENTS tiers do not apply."
+}
