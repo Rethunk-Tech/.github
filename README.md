@@ -29,6 +29,7 @@ This org-templates dossier has no HUMANS-tier runbook — edit `profile/README.m
 | Resource | Description |
 | -------- | ----------- |
 | [`profile/README.md`](profile/README.md) | Public organization profile shown on github.com/Rethunk-Tech |
+| [`SECURITY.md`](SECURITY.md) · [`SUPPORT.md`](SUPPORT.md) · [`CONTRIBUTING.md`](CONTRIBUTING.md) · [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Organization default community health files |
 | [`.github/workflows/ci.yml`](.github/workflows/ci.yml) | Workflow file validation for this repository |
 
 ## License
