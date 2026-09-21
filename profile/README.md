@@ -14,6 +14,7 @@ This org is the open toolchain around that work, not the product org.
 
 | Repo | What it is |
 |------|------------|
+| [fedbuild](https://github.com/Rethunk-Tech/fedbuild) | Reproducible, signed Fedora 43 VM image for AI coding agents (template) |
 | [heft](https://github.com/Rethunk-Tech/heft) | Read-only Linux TUI that groups process cost by application, user service, and container |
 | [rethunk-git-cli](https://github.com/Rethunk-Tech/rethunk-git-cli) | Symbol-granular git staging and commits — function, method, or type |
 | [rethunk-gate-cli](https://github.com/Rethunk-Tech/rethunk-gate-cli) | Concurrent project gates; full logs, one result line, exit status unchanged |
