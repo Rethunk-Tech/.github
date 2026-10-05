@@ -6,7 +6,8 @@ whether the gates passed.
 
 Product work for **Bastion** and **Citadel** (governed agent operations and an
 AI-native git forge) lives under [Rethunk-AI](https://github.com/Rethunk-AI).
-This org is the open toolchain around that work, not the product org.
+This org is the open toolchain around that work, not the product org. It also
+hosts Mortar, a desktop mod manager for games.
 
 **Site:** [we.rethunk.tech](https://we.rethunk.tech/) · **OSS:** [oss@rethunk.tech](mailto:oss@rethunk.tech)
 
@@ -20,6 +21,19 @@ This org is the open toolchain around that work, not the product org.
 | [rethunk-gate-cli](https://github.com/Rethunk-Tech/rethunk-gate-cli) | Concurrent project gates; full logs, one result line, exit status unchanged |
 | [claude-format-hooks](https://github.com/Rethunk-Tech/claude-format-hooks) | Claude Code PostToolUse format/lint dispatcher (Go) |
 | [gh-actions](https://github.com/Rethunk-Tech/gh-actions) | Shared composite Actions — Bun and Next.js toolchain setup and caching |
+
+## Mortar
+
+Desktop mod manager for Stardew Valley, with more games planned. Site:
+[mortar.rethunk.tech](https://mortar.rethunk.tech/). Mortar succeeds
+[Concrete](https://github.com/LethalModding/Concrete), the archived Lethal
+Company mod manager.
+
+| Repo | What it is |
+|------|------------|
+| [mortar](https://github.com/Rethunk-Tech/mortar) | The app: per-profile mod sets, SMAPI install, Nexus Mods downloads, updates and shareable profiles |
+| [mortar-browser-extension](https://github.com/Rethunk-Tech/mortar-browser-extension) | Browser extension: relays Nexus Mods Mod Manager Download clicks to Mortar and marks installed mods |
+| [mortar-smapi-bridge](https://github.com/Rethunk-Tech/mortar-smapi-bridge) | SMAPI mod that lets Mortar talk to a running game: console commands, GMCM settings, startup timings, OBS overlay |
 
 ## Archived
 
